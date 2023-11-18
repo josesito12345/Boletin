@@ -1,0 +1,70 @@
+/* Resetear estilos */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos de encabezado */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+/* Estilos de navegación */
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #333;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul li:hover > a {
+	background-color: #73b3e7;
+}
+
+nav ul li ul li {
+	position: relative;
+}
+
+nav ul li ul li a {
+	padding: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+	}
+	
+	nav ul li {
+		position: static;
+	}
+	
+	nav ul li:hover > ul {
+		display: none;
+	}
+}

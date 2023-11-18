@@ -1,0 +1,361 @@
+body {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%,
+    transparent 75%, rgba(255, 255, 255, 0.4) 75%), linear-gradient(45deg,
+    rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%);
+    background-size: 20px 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.cuerpo {
+    position: relative;
+    border-radius: 15px;
+    width: 1000px;
+    height: 600px;
+    padding: auto;
+    background-color: #FFDDBB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, 50px);
+    left: 50%;
+    bottom: 40px;
+}
+
+header {
+    position: relative;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+}
+
+.caja-regresar {
+    margin: 10px;
+    top: 10px;
+    left: 0;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(239, 187, 187);
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.caja-titulo {
+    position: absolute;
+    height: 100px;
+    margin: 10px;
+    right: 10px;
+    top: 10px;
+    left: 110px;
+    background-color: rgb(239, 187, 187);
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: auto;
+    max-width: 1200px;
+}
+
+.titulo {
+    justify-content: center;
+    height: 80px;
+    width: auto;
+    max-width: 1200px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 15px;
+    background-color: rgb(83, 211, 190);
+    position: absolute;
+    color: white;
+    display: grid;
+    align-items: center;
+    font-size: 36px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.icon {
+    width: 50px; 
+    height: 50px; 
+}
+
+.regresar {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+    border: 0;
+}
+
+main {
+    position: relative;
+}
+
+.datos-usuario {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    margin: 10px;
+    left: 10px;
+    right: 10px;
+    top: 20px;
+}
+
+.buscar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    display: grid;
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+    border: 0;
+}
+
+.buscador {
+    position: absolute;
+    border-radius: 15px;
+    border: 0;
+    width: auto;
+    height: 80px;
+    left: 100px;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(254, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+}
+.datos-usuario2{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    left: 0;
+    right: 0;
+    top: 120px;
+}
+.usuario{
+position: absolute;
+border-radius: 15px;
+border: 0;
+width: auto;
+height: 80px;
+left: 10px;
+top: 10px;
+right: 10px;
+background-color: rgb(254, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+color: rgb(0, 0, 0);
+display: grid;
+align-items: center;
+font-size: 40px;
+justify-content: center;
+}
+.caja-modalidades{
+    height: 100px;
+    width: 680px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    left: 10px;
+    margin: 10px;
+    top: 250px;
+ }
+
+.modalidad{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: 270px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+.modalidades{
+    position: absolute;
+    margin: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    left: 280px;
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 0;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+.caja-curso{
+    height: 100px;
+    width: 360px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    left: 10px;
+    margin: 10px;
+    top: 360px;
+ }
+.curso{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: 140px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+.cursos{
+    position: absolute;
+    margin: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    left: 150px;
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 0;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ .caja-division{
+    height: 100px;
+    width: 280px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    left: 400px;
+    margin: 10px;
+    top: 360px;
+ }
+.division{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: 180px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+.divisiones{
+    position: absolute;
+    margin: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    left: 190px;
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 0;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ .btn-cargar{
+    height: 100px;
+    width: 240px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    right: 20px ;
+    margin: 10px;
+    top: 360px;
+ }
+.cargar{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: 220px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}

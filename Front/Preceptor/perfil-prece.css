@@ -1,0 +1,288 @@
+body {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%,
+    transparent 75%, rgba(255, 255, 255, 0.4) 75%), linear-gradient(45deg,
+    rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%);
+    background-size: 20px 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.cuerpo {
+    position: relative;
+    border-radius: 15px;
+    width: 1000px;
+    height: 600px;
+    padding: auto;
+    background-color: #FFDDBB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, 50px);
+    left: 50%;
+    bottom: 40px;
+}
+
+header {
+    position: relative;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+}
+
+
+.caja-titulo {
+    position: absolute;
+    height: 100px;
+    margin: 10px;
+    right: 110px;
+    top: 10px;
+    left: 110px;
+    background-color: rgb(239, 187, 187);
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: auto;
+    max-width: 1200px;
+}
+
+.titulo {
+    justify-content: center;
+    height: 80px;
+    width: auto;
+    max-width: 1200px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 15px;
+    background-color: rgb(83, 211, 190);
+    position: absolute;
+    color: white;
+    display: grid;
+    align-items: center;
+    font-size: 36px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.icon {
+    width: 50px; 
+    height: 50px;
+}
+.caja-regresar {
+    margin: 10px;
+    top: 10px;
+    left: 0;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(239, 187, 187);
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.regresar {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+    border: 0;
+}
+.caja-sesion{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    right: 0;
+    margin: 10px;
+    top: 10px;
+ }
+.cerrar-sesion{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+main {
+    position: relative;
+}
+
+.caja-usuario {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    margin: 10px;
+    left: 10px;
+    right: 190px;
+    top: 20px;
+}
+
+.usuario {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    border-radius: 15px;
+    width: auto;
+    height: 80px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    display: grid;
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+    border: 0;
+}
+
+.caja-contraseña{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    left: 10px;
+    margin: 10px;
+    top: 130px;
+    right: 190px;
+ }
+.contraseña{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ .caja-btn-cambio{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    right: 80px;
+    margin: 10px;
+    top: 130px;
+ }
+.btn-cambio{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+.caja-cambio-contraseña{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    left: 10px;
+    right: 190px;
+    margin: 10px;
+    top: 240px;
+ }
+.cambio-contraseña{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ .icon {
+    width: 50px; 
+    height: 50px; 
+}
+ 
+
+ .btn-cargar{
+    height: 100px;
+    width: 240px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(239, 187, 187);
+    right: 20px ;
+    margin: 10px;
+    top: 360px;
+ }
+.cargar{
+    border-radius: 15px;
+    position: absolute;
+    border: 0;
+    right: 10px;
+    left: 10px;
+    top: 10px;
+    height: 80px;
+    width: 220px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(83, 211, 190);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+ 
